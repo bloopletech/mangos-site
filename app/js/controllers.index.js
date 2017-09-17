@@ -95,7 +95,7 @@ controllers.index = function(search, sort, sortDirection) {
       item.append(link);
 
       item.append('<div class="info-wrapper"><div class="info"><div class="title">' + book.title + '</div>' +
-        '<img src="img/icons/page_white.png" title="Pages"> ' + book.pageUrls.length + '</div></div>');
+        '<img src="img/icons/page_white.png" title="Pages"> ' + book.pages + '</div></div>');
 
       $("#items").append(item);
     });
