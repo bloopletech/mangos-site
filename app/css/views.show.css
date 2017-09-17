@@ -1,7 +1,6 @@
 #view-show {
   display: none;
   background-color: #333333;
-  height: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -16,6 +15,10 @@
 }
 
 @media (min-width: 992px) {
+  #view-show {
+    height: 100%;
+  }
+
   #view-show img {
     max-height: 100%;
   }
